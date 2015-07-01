@@ -1,6 +1,6 @@
 (function() {
   // The unique ID for this script
-  var scriptUUID = "5ab018dc-01e5-4139-9d0d-69d06245d1e9";
+  var scriptUUID = "a012a87a-3329-462f-b88c-e73ef68cd77c";
 
   // A list of required scripts
   var requiredScripts = {
@@ -43,9 +43,9 @@
 
   // Register templates, scripts, and styles for the component
   window[scriptUUID] = {
-    templates: ["%3Ctemplate%20for%3D%22xyz%22%3E%20" + "%3Cb%3E%7B%7Bdata-name%7D%7D%3C%2Fb%3E%20%3Ci%3E%7B%7Bcontent%7D%7D%3C%2Fi%3E%20" + "%3C%2Ftemplate%3E%20"],
+    templates: ["%3Ctemplate%20for%3D%22xyz%22%3E%20%3Cb%3E%7B%7Bdata-name%7D%7D%3C%2Fb%3E%20%3Ci%3E%7B%7Bcontent%7D%7D%3C%2Fi%3E%20%3C%2Ftemplate%3E%20"],
     scripts: [],
-    styles: ["%3Cstyle%20for%3D%22xyz%22%3E%20" + "xyz%20%7B%20" + "display%3A%20inline-block%3B%20" + "padding%3A%204px%208px%3B%20" + "background%3A%20%23AAA%3B%20" + "border-radius%3A%206px%3B%20" + "%7D%20" + "%3C%2Fstyle%3E%20"]
+    styles: ["%3Cstyle%20for%3D%22xyz%22%3E%20" + "xyz%20%7B%20" + "display%3A%20inline-block%3B%20" + "padding%3A%204px%208px%3B%20" + "background%3A%20%23AAA%3B%20" + "border-radius%3A%206px%3B%20" + "margin-bottom%3A%205px%3B%20" + "%7D%20" + "%3C%2Fstyle%3E%20"]
   };
 
   // Priority load required scripts, if not alread in page
