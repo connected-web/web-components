@@ -1,0 +1,29 @@
+{
+  "name": "web-components",
+  "version": "1.0.0",
+  "description": "Web components written and compiled using web-component-js.",
+  "main": "compile.js",
+  "dependencies": {
+    "web-component-js": "^1.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connected-web/web-components.git"
+  },
+  "keywords": [
+    "html",
+    "webcomponents",
+    "javascript",
+    "web-component-js"
+  ],
+  "author": "John Beech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connected-web/web-components/issues"
+  },
+  "homepage": "https://github.com/connected-web/web-components#readme"
+}
